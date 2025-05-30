@@ -29,12 +29,12 @@ export default function PlayerStats() {
         <div className="flex items-center">
           <Users size={16} className="text-[#424242] mr-1" />
           <span className="text-sm text-[#424242]">
-            <span className="font-semibold">{onlineUsers} Online</span>
+            <span className="font-semibold">{onlineUsers} </span>
           </span>
           {onlineUsers > 0 && (
             <>
               <div className="ml-2 w-2 h-2 bg-green-500 rounded-full" />
-              <span className="ml-1 text-xs text-green-600 font-medium">LIVE</span>
+              <span className="ml-1 text-xs text-green-600 font-medium"> </span>
             </>
           )}
           {onlineUsers === 0 && (
